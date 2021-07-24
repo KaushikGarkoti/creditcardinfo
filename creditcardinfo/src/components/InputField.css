@@ -1,0 +1,24 @@
+.inputField {
+    border: 1px solid #000;
+    margin: 1rem;
+    font-size: 1.5rem;
+    width: 25%;
+}
+
+input:focus {
+    border: 1px solid rgb(34, 209, 186);
+}
+
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

@@ -1,0 +1,17 @@
+.cardContainer {
+    margin: 1rem ;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #333;
+    background-color: #7777;
+    box-shadow: -3px 13px 9px 0px rgb(213 207 207);
+    height: 5vh;
+    width: 25vw;
+    z-index: 2;
+    padding:1rem ;
+}
+
